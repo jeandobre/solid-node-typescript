@@ -29,5 +29,6 @@ export class MailTrapMailProvider implements MailProvider {
 			subject: message.subject,
 			html: message.body
 		})
+		console.log(`enviando email: ${message}`);
 	}	
 }
